@@ -5,7 +5,7 @@
     "Description":  "Create and manage Support requests and Custom RBAC roles",
     "Actions":  [
                     "Microsoft.Authorization/*/read",
-		                "Microsoft.Authorization/roleDefinitions/write",
+		    "Microsoft.Authorization/roleDefinitions/write",
                     "Microsoft.Resources/subscriptions/resourceGroups/read",
                     "Microsoft.Support/*"
                 ],
@@ -13,6 +13,6 @@
     "DataActions":  [ ],
     "NotDataActions":  [ ],
     "AssignableScopes": [
-                    "/subscriptions/6c383e20-6116-4943-b77c-d7768c7b226a"
+                    "/subscriptions/#######-####-####-####-#########"
     ]
 }

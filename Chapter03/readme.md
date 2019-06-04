@@ -1,1 +1,2 @@
-You will find scripts and source for Chapter 3.
+# Azure Solutions Architect Study Guide
+Microsoft Certified Azure Solutions Architect Study Guide Exams AZ-300 and AZ-301

@@ -2,11 +2,11 @@ Install-Module -Name Az -AllowClobber -Force #(as administrator)
 Connect-AzAccount
 $subscription = Get-AzSubscription -SubscriptionId "########-####-####-####-############"
 Set-AzContext $subscription
-New-AzResourceGroup -Name CSHARPGUITAR-RG -Location centralus
-New-AzNetworkWatcher -Name NetworkWatcherCentralUS -ResourceGroupName CSHARPGUITAR-RG -Location centralus
+New-AzResourceGroup -Name CSHARPGUITAR-DM1-RG -Location centralus
+New-AzNetworkWatcher -Name NetworkWatcherCentralUS -ResourceGroupName CSHARPGUITAR-DM1-RG -Location centralus
 Get-AzNetworkWatcherReachabilityReport `
   -NetworkWatcherName NetworkWatcherCentralUS `
-  -ResourceGroupName CSHARPGUITAR-RG `
+  -ResourceGroupName CSHARPGUITAR-DM1-RG `
   -Location "Central US" `
   -Country "United States" `
   -State "minnesota" `
@@ -14,7 +14,7 @@ Get-AzNetworkWatcherReachabilityReport `
   -EndTime "2019-05-30"
 Get-AzNetworkWatcherReachabilityReport `
   -NetworkWatcherName NetworkWatcherCentralUS `
-  -ResourceGroupName CSHARPGUITAR-RG `
+  -ResourceGroupName CSHARPGUITAR-DM1-RG `
   -Location "Central US" `
   -Country "United States" `
   -State "wisconsin" `
@@ -22,7 +22,7 @@ Get-AzNetworkWatcherReachabilityReport `
   -EndTime "2019-05-30"
 Get-AzNetworkWatcherReachabilityReport `
   -NetworkWatcherName NetworkWatcherCentralUS `
-  -ResourceGroupName CSHARPGUITAR-RG `
+  -ResourceGroupName CSHARPGUITAR-DM1-RG `
   -Location "Central US" `
   -Country "United States" `
   -State "illinois" `
@@ -30,7 +30,7 @@ Get-AzNetworkWatcherReachabilityReport `
   -EndTime "2019-05-30"
   Get-AzNetworkWatcherReachabilityReport `
   -NetworkWatcherName NetworkWatcherCentralUS `
-  -ResourceGroupName CSHARPGUITAR-RG `
+  -ResourceGroupName CSHARPGUITAR-DM1-RG `
   -Location "Central US" `
   -Country "United States" `
   -State "missouri" `
@@ -38,7 +38,7 @@ Get-AzNetworkWatcherReachabilityReport `
   -EndTime "2019-05-30"
 Get-AzNetworkWatcherReachabilityReport `
   -NetworkWatcherName NetworkWatcherCentralUS `
-  -ResourceGroupName CSHARPGUITAR-RG `
+  -ResourceGroupName CSHARPGUITAR-DM1-RG `
   -Location "Central US" `
   -Country "Germany" `
   -State "bavaria" `
@@ -46,7 +46,7 @@ Get-AzNetworkWatcherReachabilityReport `
   -EndTime "2019-05-30"
 Get-AzNetworkWatcherReachabilityReport `
   -NetworkWatcherName NetworkWatcherCentralUS `
-  -ResourceGroupName CSHARPGUITAR-RG `
+  -ResourceGroupName CSHARPGUITAR-DM1-RG `
   -Location "Central US" `
   -Country "Japan" `
   -State "osaka" `
@@ -54,11 +54,11 @@ Get-AzNetworkWatcherReachabilityReport `
   -EndTime "2019-05-30"
 Get-AzNetworkWatcherReachabilityReport `
   -NetworkWatcherName NetworkWatcherCentralUS `
-  -ResourceGroupName CSHARPGUITAR-RG `
+  -ResourceGroupName CSHARPGUITAR-DM1-RG `
   -Location "Germany Central" `
   -Country "Germany" `
   -State "bavaria" `
   -StartTime "2019-05-25" `
   -EndTime "2019-05-30"
 
-Get-AzNetworkWatcherReachabilityProvidersList -NetworkWatcherName NetworkWatcherCentralUS -ResourceGroupName CSHARPGUITAR-RG
+Get-AzNetworkWatcherReachabilityProvidersList -NetworkWatcherName NetworkWatcherCentralUS -ResourceGroupName CSHARPGUITAR-DM1-RG

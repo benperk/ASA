@@ -33,13 +33,13 @@ namespace csharpguitar_api.Controllers
             string path = " **<empty>** ";
             if (platform.ToString().Contains("Win"))
             {
-                path = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\Images\csharpguitar-aci.png");
+                path = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\Images\csharpguitar-aci-win.png");
                 var image = System.IO.File.OpenRead(path);
                 return File(image, "image/png");
             }
             else
             {
-                path = Path.GetFullPath(Directory.GetCurrentDirectory() + @"/Images/csharpguitar-aci.png");
+                path = Path.GetFullPath(Directory.GetCurrentDirectory() + @"/Images/csharpguitar-aci-not-win.png");
 		        var image = System.IO.File.OpenRead(path);
                 return File(image, "image/png");
             }

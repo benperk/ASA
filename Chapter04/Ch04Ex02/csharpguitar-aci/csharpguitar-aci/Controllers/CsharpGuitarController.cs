@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using System.IO;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Hosting;
 
 namespace csharpguitar_api.Controllers
@@ -27,8 +29,20 @@ namespace csharpguitar_api.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> GetImage()
         {
-            var image = System.IO.File.OpenRead($"{_env.ContentRootPath}\\Images\\csharpguitar-aci.png");
-            return File(image, "image/png");
+            var platform = Environment.OSVersion.Platform;
+            string path = " **<empty>** ";
+            if (platform.ToString().Contains("Win"))
+            {
+                path = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\Images\csharpguitar-aci.png");
+                var image = System.IO.File.OpenRead(path);
+                return File(image, "image/png");
+            }
+            else
+            {
+                path = Path.GetFullPath(Directory.GetCurrentDirectory() + @"/Images/csharpguitar-aci.png");
+		        var image = System.IO.File.OpenRead(path);
+                return File(image, "image/png");
+            }
         }
     }
 }

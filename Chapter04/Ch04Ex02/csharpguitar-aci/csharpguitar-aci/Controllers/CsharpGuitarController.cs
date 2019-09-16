@@ -8,12 +8,7 @@ namespace csharpguitar_api.Controllers
     [Route("")]
     [ApiController]
     public class CsharpGuitarController : ControllerBase
-    {
-        private IHostingEnvironment _env;
-        public CsharpGuitarController(IHostingEnvironment env)
-        {
-            _env = env;
-        }
+    {        
         [Route("")]
         [HttpGet]
         public ContentResult Get()

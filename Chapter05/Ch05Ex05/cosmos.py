@@ -12,7 +12,7 @@ database = client.create_database_if_not_exists(id=database_name)
 container_name = 'CsharpGuitarContainer'
 container = database.create_container_if_not_exists(
     id=container_name, 
-    partition_key=PartitionKey(path="/CSGU"),
+    partition_key=PartitionKey(path="/Year"),
     offer_throughput=400
 )
 csharpguitar_items_to_create = [csharp.get_csharp_item(), guitar.get_fender_item()]

@@ -3,8 +3,8 @@ import csharp
 import guitar
 
 print('-----------------Start------------------')
-endpoint = 'https://<accountName>.documents.azure.com:443/'
-key = '<Key>'
+endpoint = 'https://csharpguitar.documents.azure.com:443/'
+key = 'cTwN94Ec6P3MnenkhmtEW7DDBBOQXWDnS92DOke5bOQITUlPug42HqAu98km8IaYA2xlwm7tsuoGZDv9srozSg=='
 
 client = CosmosClient(endpoint, key)
 database_name = 'csharpguitar-cosmos-db'

@@ -7,9 +7,9 @@ endpoint = 'https://<accountName>.documents.azure.com:443/'
 key = '<Key>'
 
 client = CosmosClient(endpoint, key)
-database_name = 'csharpguitar'
+database_name = 'csharpguitar-cosmos-db'
 database = client.create_database_if_not_exists(id=database_name)
-container_name = 'CsharpGuitarContainer'
+container_name = 'csharpguitar-container'
 container = database.create_container_if_not_exists(
     id=container_name, 
     partition_key=PartitionKey(path="/Year"),

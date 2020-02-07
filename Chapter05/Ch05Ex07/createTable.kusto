@@ -1,0 +1,4 @@
+.create 
+ table 
+ CsharpGuitarEventHub 
+    (TimeStamp: datetime, Name: string, Metric: int, Source:string)

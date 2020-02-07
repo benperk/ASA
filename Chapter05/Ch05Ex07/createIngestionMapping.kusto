@@ -1,0 +1,4 @@
+.create 
+ table 
+ CsharpGuitarEventHub ingestion json mapping 
+   'CsharpGuitarEventHubMapping'   '[{"column":"TimeStamp","path":"$.timeStamp","datatype":"datetime"},{"column":"Name","path":"$.name","datatype":"string"},{"column":"Metric","path":"$.metric","datatype":"int"},{"column":"Source","path":"$.source","datatype":"string"}]'

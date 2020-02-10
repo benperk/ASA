@@ -1,0 +1,14 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <h2>@ViewData["Message"]</h2><br /><br />
+        <h2>@ViewData["Encrypt"]</h2><br /><br />
+        <h2>@ViewData["Decrypt"]</h2><br /><br />
+        <h2>@ViewData["EncryptConnectionString"]</h2><br /><br />
+        <h2>@ViewData["DecryptConnectionString"]</h2><br /><br />
+    </div>

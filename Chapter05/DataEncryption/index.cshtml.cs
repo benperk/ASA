@@ -9,6 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using Microsoft.Azure.KeyVault.WebKey;
 using Microsoft.Azure.KeyVault.Models;
+using Microsoft.Azure.EventHubs;
 
 namespace authzonecore.Pages
 {
@@ -54,10 +55,18 @@ namespace authzonecore.Pages
                 //Decrypt the connection string for use with an application
                 var decryptedConnectionString = DecryptText(secretBundle.Value, keyVaultClient, KEYID);
                 ViewData["DecryptConnectionString"] = $"Decrypted ConnectionString: {decryptedConnectionString}";
+		
+		//use the connection string to connect with an Event Hub
+                var connectionStringBuilder = new EventHubsConnectionStringBuilder(decryptedConnectionString)
+                {
+                    EntityPath = "csharpguitar"
+                };
+                eventHubClient = EventHubClient.CreateFromConnectionString(connectionStringBuilder.ToString());
+                ViewData["EventHubConnection"] = $"Is the connection closed: {eventHubClient.IsClosed}";
             }
             catch(Exception ex)
             {
-                ViewData["Key"] = $"Something happened: {ex.Message}";
+                ViewData["Exception"] = $"Something happened: {ex.Message}";
             }
         }
 
@@ -82,7 +91,6 @@ namespace authzonecore.Pages
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
                 return default;
             }
         }

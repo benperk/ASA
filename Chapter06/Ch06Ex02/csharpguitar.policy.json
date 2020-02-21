@@ -1,0 +1,46 @@
+{
+  "mode": "All",
+    "policyRule": {
+      "if": {
+        "anyOf": [
+          {
+            "allOf": [
+              {
+                "field": "type",
+                "equals": "Microsoft.Web/sites"
+              },
+              {
+                "field": "Microsoft.Web/sites/httpsOnly",
+                "notEquals": "true"
+              }
+            ]
+          },
+          {
+            "allOf": [
+              {
+                "field": "type",
+                "equals": "Microsoft.Web/sites/config"
+              },
+              {
+                "field": "Microsoft.Web/sites/config/minTlsVersion",
+                "notEquals": "1.2"
+              }
+            ]
+          }
+        ]
+      },
+      "then": {
+        "effect": "deny"
+      }
+  },
+  "parameters": {
+    "allowedLocations": {
+      "type": "Array",
+      "metadata": {
+        "description": "The list of allowed locations for resources.",
+        "displayName": "Allowed locations",
+        "strongType": "location"
+      }
+    }
+  }
+}

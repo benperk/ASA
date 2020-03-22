@@ -11,7 +11,7 @@ using Microsoft.Azure.KeyVault.WebKey;
 using Microsoft.Azure.KeyVault.Models;
 using Microsoft.Azure.EventHubs;
 
-namespace authzonecore.Pages
+namespace csharpguitar.Pages
 {
     public class IndexModel : PageModel
     {

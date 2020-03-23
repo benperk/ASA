@@ -1,0 +1,70 @@
+@page
+@model IndexModel
+@using System.Security.Claims;
+@using System.Threading;
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <h2 class="display-4">Encryption</h2>
+    <h3>@ViewData["Message"]</h3><br />
+    <h3>@ViewData["Encrypt"]</h3><br />
+    <h3>@ViewData["Decrypt"]</h3><br />
+    <h3>@ViewData["Exception"]</h3><br />
+</div>
+<div>
+    <h2 class="display-4">Easy Auth Azure Active Directory Configuration</h2><br />
+    @{
+        var claimsPrincipal = Thread.CurrentPrincipal as ClaimsPrincipal;
+        if (claimsPrincipal != null && claimsPrincipal.Identity.IsAuthenticated)
+        {
+            <h3>Authentication Succeeded</h3>
+            <div><span><strong>Principal Name:</strong><br />@claimsPrincipal.Identity.Name</span></div>
+            <div><span><a href="/.auth/logout?post_logout_redirect_uri=https://microsoft.com">Logout</a></span></div>
+            <br />
+            <div><span><strong>x-ms-client-principal-name:</strong><br />@Request.Headers["X-MS-CLIENT-PRINCIPAL-NAME"]</span></div>
+            <br />
+            <div><span><strong>ClaimsPrincipal.Current.Identity.Name :</strong><br />@ClaimsPrincipal.Current.Identity.Name </span></div>
+            <br />
+            <div><strong>Raw Claims</strong></div>
+            <table border="1">
+                <tbody>
+                    @foreach (var claim in claimsPrincipal.Claims)
+                    {
+                        <tr>
+                            <td>@claim.Type</td>
+                            <td>@claim.Value</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h3>User Unauthenticated</h3>
+            <div><span><strong><a href="/.auth/login/aad?post_login_redirect_url=/Account/Register">Login with AAD</a></strong></span></div>
+            <div><span><strong><a href="/.auth/login/facebook?post_login_redirect_url=/Account/Register">Login with Facebook</a></strong></span></div>
+            <div><span><strong><a href="/.auth/login/twitter?post_login_redirect_url=/Account/Register">Login with Twitter</a></strong></span></div>
+            <div><span><strong><a href="/.auth/login/microsoftaccount?post_login_redirect_url=/Account/Register">Login with Microsoft Account</a></strong></span></div>
+            <div><span><strong><a href="/.auth/login/google?post_login_redirect_url=/Account/Register">Login with Google</a></strong></span></div>
+        }
+    }
+</div>
+<br />
+@*<div>
+        <div><strong>Raw HTTP Headers</strong></div>
+        <table border="1">
+            <tbody>
+                @{
+                    foreach (string header in this.Request.Headers)
+                    {
+                    <tr>
+                        <td>@header</td>
+                        <td>@this.Request.Headers[header]</td>
+                    </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>*@

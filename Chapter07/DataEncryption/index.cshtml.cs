@@ -12,6 +12,9 @@ using System.Data;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+
+using System.IdentityModel.Tokens.Jwt;
 
 namespace encryptioncore.Pages
 {
@@ -19,10 +22,12 @@ namespace encryptioncore.Pages
     {
         private static IConfiguration _configuration;
         private readonly ILogger<IndexModel> _logger;
-        public IndexModel(ILogger<IndexModel> logger, IConfiguration configuration)
+        private HttpContext _httpContext;
+        public IndexModel(ILogger<IndexModel> logger, IConfiguration configuration, IHttpContextAccessor httpContext)
         {
             _logger = logger;
             _configuration = configuration;
+            _httpContext = httpContext.HttpContext;
         }
         private static string GetKeyVaultEndpoint() => "https://csharpguitar.vault.azure.net";
         public async Task<IActionResult> OnGetAsync()
@@ -36,31 +41,62 @@ namespace encryptioncore.Pages
                     new KeyVaultClient.AuthenticationCallback(
                         azureServiceTokenProvider.KeyVaultTokenCallback));
 
+                #region Database / Encryption
+
                 using var connection = new SqlConnection(guitarDbConnectionString);
-                //INSERT 
-                //var encrypted = EncryptText("Takamine", keyVaultClient, KEYID);
-                //var insert = "INSERT INTO dbo.GUITAR (GUITAR_ID, BRAND) VALUES (@GID, @BRAND)";
-                //using SqlCommand commandI = new SqlCommand(insert, connection);
-                //commandI.Parameters.Add("@GID", SqlDbType.Int).Value = 3;
-                //commandI.Parameters.Add("@BRAND", SqlDbType.VarChar).Value = encrypted;
+
+                #region INSERT               
+                var encrypted = EncryptText("Takamine", keyVaultClient, KEYID);
+                var insert = "INSERT INTO dbo.GUITARS (GUITAR_ID, BRAND) VALUES (@GID, @BRAND)";
+                using SqlCommand commandI = new SqlCommand(insert, connection);
+                commandI.Parameters.Add("@GID", SqlDbType.Int).Value = 3;
+                commandI.Parameters.Add("@BRAND", SqlDbType.VarChar).Value = encrypted;
                 await connection.OpenAsync();
-                ViewData["Message"] = $"Database connection is: {connection.State.ToString()}";
-                //await commandI.ExecuteNonQueryAsync();
-                
-                //SELECT
-                var select = "SELECT BRAND FROM dbo.GUITAR WHERE GUITAR_ID = @GID";
+                ViewData["Message"] = connection.State.ToString();
+                await commandI.ExecuteNonQueryAsync();
+                #endregion
+
+                #region SELECT
+                var select = "SELECT BRAND FROM dbo.GUITARS WHERE GUITAR_ID = @GID";
                 using SqlCommand commandS = new SqlCommand(select, connection);
                 commandS.Parameters.Add("@GID", SqlDbType.Int).Value = 3;
                 SqlDataReader reader = commandS.ExecuteReader();
                 if (reader.Read())                
                 {                    
                     var brand = reader[0].ToString();
-                    ViewData["Encrypt"] = $"Encrypted (Takamine): {brand}";
+                    ViewData["Encrypt"] = $"{brand.Substring(0, 15)}...";
                     var decrypted = DecryptText(brand, keyVaultClient, KEYID);
-                    ViewData["Decrypt"] = $"Decrypted: {decrypted}";
+                    ViewData["Decrypt"] = decrypted;
                 }
                 reader.Close();
+                #endregion
+
                 connection.Close();
+
+                #endregion
+
+                #region Authenticcation
+
+                var token = _httpContext.Request.Headers["X-MS-TOKEN-AAD-ID-TOKEN"];
+
+                ViewData["RemoteIP"] = _httpContext.Connection.RemoteIpAddress.ToString();
+                if (token.Count > 0)
+                {
+                    ViewData["TokenId"] = $"{token.ToString().Substring(0, 15)}...";
+                    var accessToken = _httpContext.Request.Headers["X-MS-TOKEN-AAD-ACCESS-TOKEN"];
+                    ViewData["AccessToken"] = $"{accessToken.ToString().Substring(0, 15)}...";
+                    ViewData["PrincipleName"] = _httpContext.Request.Headers["X-MS-CLIENT-PRINCIPAL-NAME"];
+                    ViewData["TokenIdFull"] = token;
+
+                    JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
+                    var securityToken = tokenHandler.ReadToken(token) as JwtSecurityToken;
+                    //You must validate the token to consider the requested authenticated
+                    //tokenHandler.ValidateToken(token, validationParameters, out SecurityToken validatedToken);
+                    ViewData["TokenIssuer"] = securityToken.Issuer;
+                    ViewData["TokenValidFrom"] = securityToken.ValidFrom;
+                    ViewData["TokenValidTo"] = securityToken.ValidTo;
+                }
+                #endregion
             }
             catch (Exception ex)
             {

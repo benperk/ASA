@@ -19,9 +19,7 @@ namespace encryptioncore
         {
             CreateHostBuilder(args).Build().Run();
         }
-
         private static string GetKeyVaultEndpoint() => "https://csharpguitar.vault.azure.net";
-
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureAppConfiguration((context, config) =>

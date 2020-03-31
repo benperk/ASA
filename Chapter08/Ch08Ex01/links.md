@@ -7,9 +7,7 @@
 
 ```
 Import-Module "C:\Program Files\Microsoft Virtual Machine Converter\MvmcCmdlet.psd1"
-```
 
-```
 ConvertTo-MvmcVirtualHardDisk `
         -SourceLiteralPath "C:\Temp\Metasploitable.vmdk" `
         -DestinationLiteralPath "C:\Temp\Metasploitable.vhd" `

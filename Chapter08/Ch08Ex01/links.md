@@ -4,7 +4,6 @@
 + Microsoft Virtual Machine Converter 3.0 [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=42497)
 
 ## PowerShell Commands for converting VMDK to a VHD
-
 ```
 Import-Module "C:\Program Files\Microsoft Virtual Machine Converter\MvmcCmdlet.psd1"
 

@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <h3>Encryption</h3>
+    <div><span><strong>Database connection is: </strong>@ViewData["Message"]</span></div>
+    <div><span><strong>Encrypted (Takamine): </strong>@ViewData["Encrypt"]</span></div>
+    <div><span><strong>Decrypted: </strong>@ViewData["Decrypt"]</span></div>
+    <div><span><strong>HttpContext Remote IP: </strong>@ViewData["RemoteIP"]</span></div>
+</div>
+<br />
+<div>
+    <h3>EasyAuth - Azure Active Directory (AAD)</h3>
+    @{
+        var token = ViewData["TokenId"];
+        if (token != null)
+        {
+            <h5>A JWT Token Exists (unvalidated)</h5>
+            <div><span><strong>Principle Name (X-MS-CLIENT-PRINCIPAL-NAME): </strong>@ViewData["PrincipleName"]</span></div>
+            <div><span><strong>JWT Token Id (X-MS-TOKEN-AAD-ID-TOKEN): </strong>@ViewData["TokenId"]</span></div>
+            <div><span><strong>JWT Access Token (X-MS-TOKEN-AAD-ACCESS-TOKEN): </strong>@ViewData["AccessToken"]</span></div>
+            <div><span><strong>JJWT Token Issuer: </strong>@ViewData["TokenIssuer"]</span></div>
+            <div><span><strong>JWT Token Valid From: </strong>@ViewData["TokenValidFrom"]</span></div>
+            <div><span><strong>JWT Token Valid To: </strong>@ViewData["TokenValidTo"]</span></div>
+            <div><span><strong>JWT Full Token Id (X-MS-TOKEN-AAD-ID-TOKEN): </strong>@ViewData["TokenIdFull"]</span></div><br /><br />
+            <div><span><a href="/.auth/logout?post_logout_redirect_uri=https://microsoft.com">Logout</a></span></div>
+        }
+        else
+        {
+            <h5>A JWT Token Does Not Exist</h5>
+            <div><span><strong><a href="/.auth/login/aad?post_login_redirect_url=/">Login with AAD</a></strong></span></div>
+            <div><span><strong><a href="/.auth/login/facebook">Login with Facebook</a></strong></span></div>
+            <div><span><strong><a href="/.auth/login/twitter">Login with Twitter</a></strong></span></div>
+            <div><span><strong><a href="/.auth/login/microsoftaccount">Login with Microsoft Account</a></strong></span></div>
+            <div><span><strong><a href="/.auth/login/google">Login with Google</a></strong></span></div>
+        }
+    }
+</div>
+<br />
+<div>
+    <h2>@ViewData["Exception"]</h2><br />
+</div>

@@ -1,0 +1,33 @@
+# ASP.NET Core - CSHARPGUITAR
+
+trigger:
+- master
+
+pool:
+  vmImage: 'vs2017-win2016'
+
+variables:
+  buildConfiguration: 'Release'
+  azureSubscription: 'SubscriptionName(SubscriptionId)'
+  appName: 'csharpguitar'
+
+steps:
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'dotnet build $(buildConfiguration)'
+  
+- task: DotNetCoreCLI@2
+  inputs:
+    command: publish
+    publishWebProjects: True
+    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: True
+    
+- task: PublishBuildArtifacts@1
+
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: $(azureSubscription)
+    appType: 'webApp'
+    WebAppName: $(appName)
+    package: $(System.ArtifactsDirectory)/**/*.zip

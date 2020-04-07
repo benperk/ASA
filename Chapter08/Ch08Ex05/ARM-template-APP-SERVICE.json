@@ -1,0 +1,55 @@
+{
+  "parameters": {
+    "appName": {
+      "defaultValue": "csharpguitar",
+      "type": "string"
+    },
+    "serverFarm": {
+      "defaultValue": "/subscriptions/<SubId>/resourceGroups/CSHARPGUITAR-DB3-RG/providers/Microsoft.Web/serverfarms/CSHARPGUITAR-DB3-ASP",
+      "type": "String"
+    },
+    "msdeployPackageUrl": {
+      "defaultValue": "https://csharpguitar.blob.core.windows.net/csharpguitar/csharpguitar.zip",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "apiVersion": "2018-11-01",
+      "name": "[parameters('appName')]",
+      "type": "Microsoft.Web/sites",
+      "properties": {
+        "name": "[parameters('appName')]",
+        "serverFarmId": "[parameters('serverFarm')]",
+        "httpsOnly": true,
+        "siteConfig": {
+          "appSettings": [
+            {
+              "name": "A_COOL_APPLICATION_SETTING",
+              "value": "csharpguitar is cool!"
+            }
+          ]
+        },
+        "clientAffinityEnabled": false
+      },
+      "resources": [
+        {
+          "name": "MSDeploy",
+          "type": "Extensions",
+          "apiVersion": "2018-11-01",
+          "dependsOn": [
+            "[resourceId('Microsoft.Web/Sites', parameters('appName'))]"
+          ],
+          "properties": {
+            "packageUri": "[parameters('msdeployPackageUrl')]",
+            "appOffline": true
+          }
+        }
+      ],
+      "location": "[resourceGroup().location]",
+      "kind": "app"
+    }
+  ],
+  "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.4"
+}

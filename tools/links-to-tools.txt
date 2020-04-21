@@ -1,0 +1,4 @@
+CURL - https://curl.haxx.se/download.html
+PSPING - https://docs.microsoft.com/en-us/sysinternals/downloads/psping
+TCPPING - 
+NAMERESOLVER - 

@@ -13,4 +13,4 @@ Microsoft Azure Architect Technologies and Design Complete Study Guide Exams AZ-
 
 By learning all of these things plus using the Study Guide review questions and practice exams, the reader will be ready to take the exam and perform the job with confidence.
 
-[![Microsoft Azure Architect Technologies and Design Complete Study Guide Exams AZ-303 and AZ-304](ASA.PNG)](https://www.wiley.com/en-us/Microsoft+Azure+Architect+Technologies+and+Design+Complete+Study+Guide+Exams+AZ+303+and+AZ+304-p-9781119559535)
+[![Microsoft Azure Architect Technologies and Design Complete Study Guide Exams AZ-303 and AZ-304](/ASA.PNG)](https://www.wiley.com/en-us/Microsoft+Azure+Architect+Technologies+and+Design+Complete+Study+Guide+Exams+AZ+303+and+AZ+304-p-9781119559535)

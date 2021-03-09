@@ -28,11 +28,12 @@ CH 7 - Developing for the Cloud
 		https://docs.microsoft.com/en-us/azure/dev-spaces/how-to/github-actions
 CH 8 - Migrate and Deploy
 	Azure Resource Mover
-		https://docs.microsoft.com/en-us/azure/resource-mover/
-	Azure Site Recovery, Recovery Services Vault and Azure Migrate
+		https://docs.microsoft.com/en-us/azure/resource-mover
+	**Azure Site Recovery, Recovery Services Vault and Azure Migrate
 CH 9 - Monitor and Recover
 	ITSM
 		https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview
+	**Azure Site Recovery, Recovery Services Vault and Azure Migrate
 
 
 

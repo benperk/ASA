@@ -7,9 +7,14 @@ CH 2 - Security and Identity
 	Azure Bastion -> see CH 4
 	Azure Sentinel
 		https://docs.microsoft.com/en-us/azure/sentinel/overview
+	https://azure.microsoft.com/en-us/updates/rolebased-access-control-rbac-with-azure-active-directory-aad-on-azure-cosmos-db-in-public-preview/
+	https://techcommunity.microsoft.com/t5/azure-security-center/security-control-protect-applications-against-ddos-attacks/ba-p/2169373
+	https://techcommunity.microsoft.com/t5/azure-security-center/security-control-manage-access-and-permissions/ba-p/1720540
 CH 3 - Networking
 	Private Endpoints
 		https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview
+	https://azure.microsoft.com/en-us/updates/multiple-new-features-for-azure-vpn-gateway-in-public-preview/
+	https://azure.microsoft.com/en-us/updates/public-preview-azure-route-server/
 CH 4 - Compute
 	Trusted Launch for VMs
 		https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch
@@ -20,9 +25,14 @@ CH 4 - Compute
 	Create Web App for Containers
 		https://azure.microsoft.com/en-us/services/app-service/containers/
 CH 5 - Data and Storage 
+	https://azure.microsoft.com/en-us/updates/public-preview-maintenance-window-for-azure-sql-database-and-azure-sql-managed-instance/
+	https://techcommunity.microsoft.com/t5/azure-storage/announcing-the-preview-of-zone-redundant-storage-zrs-option-for/ba-p/2173512
+	https://azure.microsoft.com/en-us/updates/public-preview-automatic-key-rotation-of-customermanaged-keys-for-encrypting-azure-managed-disks/
 CH 6 - Hybrid, Compliance, and Messaging
 	Azure Cost Management
 		https://docs.microsoft.com/en-us/azure/cost-management-billing/
+	https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/
+	https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-blueprints-vs-azure-resource-manager-template-specs/ba-p/2176909
 CH 7 - Developing for the Cloud
 	Azure Dev Spaces to GitHub Actions
 		https://docs.microsoft.com/en-us/azure/dev-spaces/how-to/github-actions
@@ -30,6 +40,8 @@ CH 8 - Migrate and Deploy
 	Azure Resource Mover
 		https://docs.microsoft.com/en-us/azure/resource-mover
 	**Azure Site Recovery, Recovery Services Vault and Azure Migrate
+	https://azure.microsoft.com/en-us/updates/azure-migrate-azure-vmware-solution-assessment-ga/
+	https://azure.microsoft.com/en-us/updates/public-preview-at-scale-discovery-and-assessment-for-sql-server-migration-to-azure-sql/
 CH 9 - Monitor and Recover
 	ITSM
 		https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview

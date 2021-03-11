@@ -7,14 +7,23 @@ CH 2 - Security and Identity
 	Azure Bastion -> see CH 4
 	Azure Sentinel
 		https://docs.microsoft.com/en-us/azure/sentinel/overview
+		https://techcommunity.microsoft.com/t5/azure-sentinel/using-azure-data-explorer-for-long-term-retention-of-azure/ba-p/1883947
 	https://azure.microsoft.com/en-us/updates/rolebased-access-control-rbac-with-azure-active-directory-aad-on-azure-cosmos-db-in-public-preview/
 	https://techcommunity.microsoft.com/t5/azure-security-center/security-control-protect-applications-against-ddos-attacks/ba-p/2169373
 	https://techcommunity.microsoft.com/t5/azure-security-center/security-control-manage-access-and-permissions/ba-p/1720540
+	Security Map
+		https://techcommunity.microsoft.com/t5/azure-developer-community-blog/the-azure-security-architect-map/ba-p/714091
+	Azure Security Center, Azure Defender and Azure Sentinel
+		https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-azure-security-center-azure/ba-p/2155188
+	Zero Trust
+		https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/
 CH 3 - Networking
 	Private Endpoints
 		https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview
 	https://azure.microsoft.com/en-us/updates/multiple-new-features-for-azure-vpn-gateway-in-public-preview/
 	https://azure.microsoft.com/en-us/updates/public-preview-azure-route-server/
+	Network Watcher retiring
+		https://azure.microsoft.com/en-us/updates/we-re-retiring-azure-network-watcher-connection-monitor-classic-on-29-february-2024/
 CH 4 - Compute
 	Trusted Launch for VMs
 		https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch
@@ -24,15 +33,29 @@ CH 4 - Compute
 		https://docs.microsoft.com/en-us/azure/bastion/bastion-overview
 	Create Web App for Containers
 		https://azure.microsoft.com/en-us/services/app-service/containers/
+	Azure Batch
+		https://techcommunity.microsoft.com/t5/azure-compute/running-nextflow-data-pipelines-on-azure-batch/ba-p/2150383
+	Containers
+		https://techcommunity.microsoft.com/t5/educator-developer-blog/beginner-s-series-to-dev-containers/ba-p/2155792
 CH 5 - Data and Storage 
 	https://azure.microsoft.com/en-us/updates/public-preview-maintenance-window-for-azure-sql-database-and-azure-sql-managed-instance/
 	https://techcommunity.microsoft.com/t5/azure-storage/announcing-the-preview-of-zone-redundant-storage-zrs-option-for/ba-p/2173512
 	https://azure.microsoft.com/en-us/updates/public-preview-automatic-key-rotation-of-customermanaged-keys-for-encrypting-azure-managed-disks/
+	Azure SQL with Azure Arc
+		https://channel9.msdn.com/Shows/Data-Exposed/How-to-Deploy-Azure-SQL-Anywhere--Using-Azure-Arc-for-Data-Services
 CH 6 - Hybrid, Compliance, and Messaging
 	Azure Cost Management
 		https://docs.microsoft.com/en-us/azure/cost-management-billing/
 	https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/
 	https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-blueprints-vs-azure-resource-manager-template-specs/ba-p/2176909
+	Resource Reporting
+		https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/new-resource-reporting/ba-p/2150155
+	https://azure.microsoft.com/en-us/blog/introducing-private-azure-marketplace-simplified-app-governance-and-deployment/
+	Industry Compliant Clouds
+		https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/
+		https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/
+		https://cloudblogs.microsoft.com/industry-blog/retail/2021/02/24/announcing-microsoft-cloud-for-retail-built-for-whats-next/
+		https://cloudblogs.microsoft.com/industry-blog/health/2021/02/24/building-resilient-models-of-care-with-new-microsoft-cloud-for-healthcare-features/
 CH 7 - Developing for the Cloud
 	Azure Dev Spaces to GitHub Actions
 		https://docs.microsoft.com/en-us/azure/dev-spaces/how-to/github-actions
@@ -42,10 +65,15 @@ CH 8 - Migrate and Deploy
 	**Azure Site Recovery, Recovery Services Vault and Azure Migrate
 	https://azure.microsoft.com/en-us/updates/azure-migrate-azure-vmware-solution-assessment-ga/
 	https://azure.microsoft.com/en-us/updates/public-preview-at-scale-discovery-and-assessment-for-sql-server-migration-to-azure-sql/
+	Lift and Shift
+		https://channel9.msdn.com/Shows/DevOps-Lab/On-Prem-To-The-Cloud-Lift-and-Shift-Ep-2
 CH 9 - Monitor and Recover
 	ITSM
 		https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview
 	**Azure Site Recovery, Recovery Services Vault and Azure Migrate
+	https://docs.microsoft.com/en-us/azure/azure-monitor/app/change-analysis
+	Automation
+		https://techcommunity.microsoft.com/t5/itops-talk-blog/manage-your-azure-resources-using-automation-tasks/ba-p/2160052
 
 
 

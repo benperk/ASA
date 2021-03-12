@@ -26,6 +26,8 @@ CH 3 - Networking
 	https://azure.microsoft.com/en-us/updates/public-preview-azure-route-server/
 	Network Watcher retiring
 		https://azure.microsoft.com/en-us/updates/we-re-retiring-azure-network-watcher-connection-monitor-classic-on-29-february-2024/
+	https://docs.microsoft.com/en-us/azure/architecture/high-availability/reference-architecture-traffic-manager-application-gateway
+	https://azure.microsoft.com/en-us/updates/azure-routing-preference-is-now-generally-available/
 CH 4 - Compute
 	Trusted Launch for VMs
 		https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch
@@ -60,9 +62,12 @@ CH 6 - Hybrid, Compliance, and Messaging
 		https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/
 		https://cloudblogs.microsoft.com/industry-blog/retail/2021/02/24/announcing-microsoft-cloud-for-retail-built-for-whats-next/
 		https://cloudblogs.microsoft.com/industry-blog/health/2021/02/24/building-resilient-models-of-care-with-new-microsoft-cloud-for-healthcare-features/
+	https://docs.microsoft.com/en-us/azure/architecture/example-scenario/integration/logic-apps-data-integration
 CH 7 - Developing for the Cloud
 	Azure Dev Spaces to GitHub Actions
 		https://docs.microsoft.com/en-us/azure/dev-spaces/how-to/github-actions
+	https://docs.microsoft.com/en-us/azure/architecture/antipatterns/retry-storm/
+	https://docs.microsoft.com/en-us/azure/architecture/antipatterns/no-caching/
 CH 8 - Migrate and Deploy
 	Azure Resource Mover
 		https://docs.microsoft.com/en-us/azure/resource-mover
@@ -81,6 +86,7 @@ CH 9 - Monitor and Recover
 	Azure App Services
 		https://docs.microsoft.com/en-us/azure/app-service/monitor-instances-health-check
 	https://docs.microsoft.com/en-us/azure/azure-monitor/app/change-analysis
+	https://azure.microsoft.com/en-us/updates/azmon-livelogs-pods/
 
 
 

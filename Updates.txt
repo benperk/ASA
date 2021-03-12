@@ -45,6 +45,7 @@ CH 5 - Data and Storage
 	https://azure.microsoft.com/en-us/updates/public-preview-automatic-key-rotation-of-customermanaged-keys-for-encrypting-azure-managed-disks/
 	Azure SQL with Azure Arc
 		https://channel9.msdn.com/Shows/Data-Exposed/How-to-Deploy-Azure-SQL-Anywhere--Using-Azure-Arc-for-Data-Services
+	https://azure.microsoft.com/en-us/updates/routing-preferences-azure-storage-ga/
 CH 6 - Hybrid, Compliance, and Messaging
 	Azure Cost Management
 		https://docs.microsoft.com/en-us/azure/cost-management-billing/

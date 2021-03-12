@@ -7,11 +7,21 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover) -> Chapter 8
 ## Chapter 2 - Security and Identity
+- [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
+- [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4
 ## Chapter 3 - Networking
 ## Chapter 4 - Compute
+- 
+### Azure Virtual Machines
+- [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview)
+- [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch)
 ## Chapter 5 - Data and Storage
 ## Chapter 6 - Hybrid, Compliance, and Messaging
 ## Chapter 7 - Developing for the Cloud
+- [GitHub Actions & Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/dev-spaces/how-to/github-actions)
+### Code Patterns
+- [Retry Storm](https://docs.microsoft.com/en-us/azure/architecture/antipatterns/retry-storm/)
+- [No Caching](https://docs.microsoft.com/en-us/azure/architecture/antipatterns/no-caching/)
 ## Chapter 8 - Migrate and Deploy
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover)

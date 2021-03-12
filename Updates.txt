@@ -17,6 +17,8 @@ CH 2 - Security and Identity
 		https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-azure-security-center-azure/ba-p/2155188
 	Zero Trust
 		https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/
+	VMSS
+		https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cross-availability-zones#preview-enable-multiple-availability-zones-in-single-virtual-machine-scale-set
 CH 3 - Networking
 	Private Endpoints
 		https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview

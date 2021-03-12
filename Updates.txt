@@ -2,21 +2,7 @@ Some ideas where I can increase the content of the book
 
 Moving all this content to [here](https://github.com/benperk/ASA/blob/master/UpToDate.md)
 
-CH 2 - Security and Identity
-	Azure Sentinel
-		https://docs.microsoft.com/en-us/azure/sentinel/overview
-		https://techcommunity.microsoft.com/t5/azure-sentinel/using-azure-data-explorer-for-long-term-retention-of-azure/ba-p/1883947
-	https://azure.microsoft.com/en-us/updates/rolebased-access-control-rbac-with-azure-active-directory-aad-on-azure-cosmos-db-in-public-preview/
-	https://techcommunity.microsoft.com/t5/azure-security-center/security-control-protect-applications-against-ddos-attacks/ba-p/2169373
-	https://techcommunity.microsoft.com/t5/azure-security-center/security-control-manage-access-and-permissions/ba-p/1720540
-	Security Map
-		https://techcommunity.microsoft.com/t5/azure-developer-community-blog/the-azure-security-architect-map/ba-p/714091
-	Azure Security Center, Azure Defender and Azure Sentinel
-		https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-azure-security-center-azure/ba-p/2155188
-	Zero Trust
-		https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/
-	VMSS
-		https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cross-availability-zones#preview-enable-multiple-availability-zones-in-single-virtual-machine-scale-set
+
 CH 3 - Networking
 	Private Endpoints
 		https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview

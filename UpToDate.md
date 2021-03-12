@@ -4,6 +4,7 @@ This file will be updated with new Azure products and features or changes to exi
 Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is%3Aissue+is%3Aclosed) which will be corrected in the near term.
 
 ## Chapter 1 - Gaining the Azure Solutions Architect Expert Certification 
+- Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover) -> Chapter 8
 ## Chapter 2 - Security and Identity
 ## Chapter 3 - Networking
@@ -12,8 +13,13 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 ## Chapter 6 - Hybrid, Compliance, and Messaging
 ## Chapter 7 - Developing for the Cloud
 ## Chapter 8 - Migrate and Deploy
+- Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
+- [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover)
+- [Plan your migration to Azure VMware Solution using Azure Migrate](https://azure.microsoft.com/en-us/updates/azure-migrate-azure-vmware-solution-assessment-ga/)
+- [At scale discovery and assessment for SQL Server migration to Azure SQL](https://azure.microsoft.com/en-us/updates/public-preview-at-scale-discovery-and-assessment-for-sql-server-migration-to-azure-sql/)
+- [Lift and Shift](https://channel9.msdn.com/Shows/DevOps-Lab/On-Prem-To-The-Cloud-Lift-and-Shift-Ep-2)
 ## Chapter 9 - Monitor and Recover
-- Resolve any abiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
+- Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - [IT Service Management Connector Overview](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview)
 - [Use Application Change Analysis in Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/app/change-analysis)
 - [Manage your Azure resources using automation tasks](https://techcommunity.microsoft.com/t5/itops-talk-blog/manage-your-azure-resources-using-automation-tasks/ba-p/2160052)

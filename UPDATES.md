@@ -48,6 +48,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Resource Reporting](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/new-resource-reporting/ba-p/2150155)
 - [Introducing private Azure marketplace—simplified app governance and deployment](https://azure.microsoft.com/en-us/blog/introducing-private-azure-marketplace-simplified-app-governance-and-deployment/)
 - [Azure Cost Management + Billing](https://docs.microsoft.com/en-us/azure/cost-management-billing/)
+- [Data integration with Logic Apps and SQL Server](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/integration/logic-apps-data-integration)
 ### Industry Compliant Clouds
 - [Microsoft Cloud for Financial Services](https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/)
 - [Microsoft Cloud for Manufacturing](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/)

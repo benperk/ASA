@@ -7,6 +7,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/) -> Chapter 4
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover) -> Chapter 8
   - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
+- [Azure Automanage](https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/) => Chapter 9
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4
@@ -42,7 +43,16 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Automatic key rotation of customer-managed keys for encrypting Azure managed disks](https://azure.microsoft.com/en-us/updates/public-preview-automatic-key-rotation-of-customermanaged-keys-for-encrypting-azure-managed-disks/)
 - [Azure Cache for Redis - Zone redundancy](https://docs.microsoft.com/en-au/azure/azure-cache-for-redis/cache-high-availability#zone-redundancy)
 ## Chapter 6 - Hybrid, Compliance, and Messaging
-- [New Azure Security Benchmark Foundation helps organizations embrace zero trust](https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/) -> Chapter 6
+- [New Azure Security Benchmark Foundation helps organizations embrace zero trust](https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/)
+- [Azure Blueprints vs Azure Resource Manager template specs](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-blueprints-vs-azure-resource-manager-template-specs/ba-p/2176909)
+- [Resource Reporting](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/new-resource-reporting/ba-p/2150155)
+- [Introducing private Azure marketplace—simplified app governance and deployment](https://azure.microsoft.com/en-us/blog/introducing-private-azure-marketplace-simplified-app-governance-and-deployment/)
+- [Azure Cost Management + Billing](https://docs.microsoft.com/en-us/azure/cost-management-billing/)
+### Industry Compliant Clouds
+- [Microsoft Cloud for Financial Services](https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/)
+- [Microsoft Cloud for Manufacturing](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/)
+- [Microsoft Cloud for Retail](https://cloudblogs.microsoft.com/industry-blog/retail/2021/02/24/announcing-microsoft-cloud-for-retail-built-for-whats-next/)
+- [Microsoft Cloud for Healthcare](https://cloudblogs.microsoft.com/industry-blog/health/2021/02/24/building-resilient-models-of-care-with-new-microsoft-cloud-for-healthcare-features/)
 ## Chapter 7 - Developing for the Cloud
 - [GitHub Actions & Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/dev-spaces/how-to/github-actions)
 ### Code Patterns
@@ -62,3 +72,4 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Monitor App Service instances using Health check](https://docs.microsoft.com/en-us/azure/app-service/monitor-instances-health-check)
 - [Azure monitor for containers - AKS](https://azure.microsoft.com/en-us/updates/azmon-livelogs-pods/)
 - [Using Azure Data Explorer for long term retention of Azure Sentinel logs](https://techcommunity.microsoft.com/t5/azure-sentinel/using-azure-data-explorer-for-long-term-retention-of-azure/ba-p/1883947)
+- [Azure Automanage](https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/)

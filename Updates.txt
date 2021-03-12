@@ -77,6 +77,9 @@ CH 9 - Monitor and Recover
 	https://docs.microsoft.com/en-us/azure/azure-monitor/app/change-analysis
 	Automation
 		https://techcommunity.microsoft.com/t5/itops-talk-blog/manage-your-azure-resources-using-automation-tasks/ba-p/2160052
+	Azure App Services
+		https://docs.microsoft.com/en-us/azure/app-service/monitor-instances-health-check
+	https://docs.microsoft.com/en-us/azure/azure-monitor/app/change-analysis
 
 
 

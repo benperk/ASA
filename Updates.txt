@@ -26,23 +26,6 @@ CH 3 - Networking
 		https://azure.microsoft.com/en-us/updates/we-re-retiring-azure-network-watcher-connection-monitor-classic-on-29-february-2024/
 	https://docs.microsoft.com/en-us/azure/architecture/high-availability/reference-architecture-traffic-manager-application-gateway
 	https://azure.microsoft.com/en-us/updates/azure-routing-preference-is-now-generally-available/
-CH 4 - Compute
-	Azure Dedicated Hosts
-		https://azure.microsoft.com/en-us/services/virtual-machines/dedicated-host/
-	Create Web App for Containers
-		https://azure.microsoft.com/en-us/services/app-service/containers/
-	Azure Batch
-		https://techcommunity.microsoft.com/t5/azure-compute/running-nextflow-data-pipelines-on-azure-batch/ba-p/2150383
-	Containers
-		https://techcommunity.microsoft.com/t5/educator-developer-blog/beginner-s-series-to-dev-containers/ba-p/2155792
-CH 5 - Data and Storage 
-	https://azure.microsoft.com/en-us/updates/public-preview-maintenance-window-for-azure-sql-database-and-azure-sql-managed-instance/
-	https://techcommunity.microsoft.com/t5/azure-storage/announcing-the-preview-of-zone-redundant-storage-zrs-option-for/ba-p/2173512
-	https://azure.microsoft.com/en-us/updates/public-preview-automatic-key-rotation-of-customermanaged-keys-for-encrypting-azure-managed-disks/
-	Azure SQL with Azure Arc
-		https://channel9.msdn.com/Shows/Data-Exposed/How-to-Deploy-Azure-SQL-Anywhere--Using-Azure-Arc-for-Data-Services
-	https://azure.microsoft.com/en-us/updates/routing-preferences-azure-storage-ga/
-	https://docs.microsoft.com/en-au/azure/azure-cache-for-redis/cache-high-availability#zone-redundancy
 CH 6 - Hybrid, Compliance, and Messaging
 	Azure Cost Management
 		https://docs.microsoft.com/en-us/azure/cost-management-billing/

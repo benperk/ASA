@@ -11,11 +11,20 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4
 ## Chapter 3 - Networking
 ## Chapter 4 - Compute
-- 
+- [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/)
+- [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/)
+- [Running Nextflow Data Pipelines on Azure Batch](https://techcommunity.microsoft.com/t5/azure-compute/running-nextflow-data-pipelines-on-azure-batch/ba-p/2150383)
+- [Beginner's Series to: Dev Containers](https://techcommunity.microsoft.com/t5/educator-developer-blog/beginner-s-series-to-dev-containers/ba-p/2155792)
 ### Azure Virtual Machines
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview)
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch)
+- [Azure Dedicated Host](https://azure.microsoft.com/en-us/services/virtual-machines/dedicated-host/)
 ## Chapter 5 - Data and Storage
+- [Maintenance window for Azure SQL Database and Azure SQL Managed Instance](https://azure.microsoft.com/en-us/updates/public-preview-maintenance-window-for-azure-sql-database-and-azure-sql-managed-instance/)
+- [Routing Preferences now generally available](https://azure.microsoft.com/en-us/updates/routing-preferences-azure-storage-ga/)
+- [Zone Redundant Storage (ZRS) option for Azure managed disks](https://techcommunity.microsoft.com/t5/azure-storage/announcing-the-preview-of-zone-redundant-storage-zrs-option-for/ba-p/2173512)
+- [Automatic key rotation of customer-managed keys for encrypting Azure managed disks](https://azure.microsoft.com/en-us/updates/public-preview-automatic-key-rotation-of-customermanaged-keys-for-encrypting-azure-managed-disks/)
+- [Azure Cache for Redis - Zone redundancy](https://docs.microsoft.com/en-au/azure/azure-cache-for-redis/cache-high-availability#zone-redundancy)
 ## Chapter 6 - Hybrid, Compliance, and Messaging
 ## Chapter 7 - Developing for the Cloud
 - [GitHub Actions & Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/dev-spaces/how-to/github-actions)

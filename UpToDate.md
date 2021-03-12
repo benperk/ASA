@@ -5,6 +5,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 
 ## Chapter 1 - Gaining the Azure Solutions Architect Expert Certification 
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
+- [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/) -> Chapter 4
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover) -> Chapter 8
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4

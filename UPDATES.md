@@ -68,6 +68,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Plan your migration to Azure VMware Solution using Azure Migrate](https://azure.microsoft.com/en-us/updates/azure-migrate-azure-vmware-solution-assessment-ga/)
 - [At scale discovery and assessment for SQL Server migration to Azure SQL](https://azure.microsoft.com/en-us/updates/public-preview-at-scale-discovery-and-assessment-for-sql-server-migration-to-azure-sql/)
 - [Lift and Shift](https://channel9.msdn.com/Shows/DevOps-Lab/On-Prem-To-The-Cloud-Lift-and-Shift-Ep-2)
+- [Azure Migrate Server Migration: Common questions](https://docs.microsoft.com/en-us/azure/migrate/common-questions-server-migration)
 ## Chapter 9 - Monitor and Recover
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - [IT Service Management Connector Overview](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview)

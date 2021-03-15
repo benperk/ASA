@@ -18,6 +18,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Security Architect Map](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/the-azure-security-architect-map/ba-p/714091)
 - [What's the difference between Azure Security Center, Azure Defender and Azure Sentinel?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-azure-security-center-azure/ba-p/2155188)
 - [New Azure Security Benchmark Foundation helps organizations embrace zero trust](https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/) -> Chapter 6
+- [Azure security baseline for Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/security-baseline) -> Chapter 5
 ## Chapter 3 - Networking
 - [What is Azure Private Endpoint?](https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview)
 - [Multiple new features for Azure VPN Gateway](https://azure.microsoft.com/en-us/updates/multiple-new-features-for-azure-vpn-gateway-in-public-preview/)

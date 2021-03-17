@@ -32,6 +32,8 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Routing Preference](https://azure.microsoft.com/en-us/updates/azure-routing-preference-is-now-generally-available/) -> see Chapter 5
 - [Network Connectivity Monitoring with Connection Monitor](https://docs.microsoft.com/en-us/azure/network-watcher/connection-monitor-overview)
   - [We’re retiring Azure Network Watcher Connection Monitor](https://azure.microsoft.com/en-us/updates/we-re-retiring-azure-network-watcher-connection-monitor-classic-on-29-february-2024/)
+- [AllowUpdateAddressSpaceInPeeredVnets](https://docs.microsoft.com/en-us/answers/questions/228836/allowupdateaddressspaceinpeeredvnets.html)
+  - Keep an eye on this one [Add IP address spaces to peered virtual networks](https://docs.microsoft.com/en-us/azure/architecture/networking/prefixes/add-ip-space-peered-vnet) 
 - [Azure Web Application Firewall (WAF) / using exclusion lists](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-tuning#using-exclusion-lists)
 - [Multi-region load balancing with Traffic Manager and Application Gateway](https://docs.microsoft.com/en-us/azure/architecture/high-availability/reference-architecture-traffic-manager-application-gateway) 
 ## Chapter 4 - Compute

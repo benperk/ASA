@@ -47,6 +47,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview)
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch)
 - [Azure Dedicated Host](https://azure.microsoft.com/en-us/services/virtual-machines/dedicated-host/)
+- [Azure Image Builder](https://docs.microsoft.com/en-us/azure/virtual-machines/image-builder-overview)
 ## Chapter 5 - Data and Storage
 - [Maintenance window for Azure SQL Database and Azure SQL Managed Instance](https://azure.microsoft.com/en-us/updates/public-preview-maintenance-window-for-azure-sql-database-and-azure-sql-managed-instance/)
 - [Routing Preferences now generally available](https://azure.microsoft.com/en-us/updates/routing-preferences-azure-storage-ga/)

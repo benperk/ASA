@@ -8,6 +8,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover) -> Chapter 8
   - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - [Azure Automanage](https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/) => Chapter 9
+- [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/) -> Chapter 4
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4
@@ -43,6 +44,8 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Running Nextflow Data Pipelines on Azure Batch](https://techcommunity.microsoft.com/t5/azure-compute/running-nextflow-data-pipelines-on-azure-batch/ba-p/2150383)
 - [Beginner's Series to: Dev Containers](https://techcommunity.microsoft.com/t5/educator-developer-blog/beginner-s-series-to-dev-containers/ba-p/2155792)
 - [Enable multiple Availability zones in single virtual machine scale set](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cross-availability-zones#preview-enable-multiple-availability-zones-in-single-virtual-machine-scale-set)
+- [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/)
+- [Host a static website in Azure Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-how-to?tabs=azure-portal) -> Chapter 5
 ### Azure Virtual Machines
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview)
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch)

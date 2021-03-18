@@ -9,10 +9,12 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
   - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - [Azure Automanage](https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/) => Chapter 9
 - [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/) -> Chapter 4
+- [Azure Attestation](https://docs.microsoft.com/en-us/azure/attestation/overview) -> Chapter 2
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4
 - [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview)
+- [Azure Attestation](https://docs.microsoft.com/en-us/azure/attestation/overview)
 - [(RBAC) with (AAD) on Azure Cosmos DB](https://azure.microsoft.com/en-us/updates/rolebased-access-control-rbac-with-azure-active-directory-aad-on-azure-cosmos-db-in-public-preview/)
 - [Protect Applications Against DDoS Attacks](https://techcommunity.microsoft.com/t5/azure-security-center/security-control-protect-applications-against-ddos-attacks/ba-p/2169373)
 - [Manage Access and Permissions](https://techcommunity.microsoft.com/t5/azure-security-center/security-control-manage-access-and-permissions/ba-p/1720540)

@@ -60,6 +60,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Automatic key rotation of customer-managed keys for encrypting Azure managed disks](https://azure.microsoft.com/en-us/updates/public-preview-automatic-key-rotation-of-customermanaged-keys-for-encrypting-azure-managed-disks/)
 - [Azure Cache for Redis - Zone redundancy](https://docs.microsoft.com/en-au/azure/azure-cache-for-redis/cache-high-availability#zone-redundancy)
 - [How to Monitor Batching Ingestion to ADX in Azure Portal](https://techcommunity.microsoft.com/t5/azure-data-explorer/how-to-monitor-batching-ingestion-to-adx-in-azure-portal/ba-p/2178857) -> Chapter 9
+- [Azure File Sync](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-planning)
 ## Chapter 6 - Hybrid, Compliance, and Messaging
 - [New Azure Security Benchmark Foundation helps organizations embrace zero trust](https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/)
 - [Azure Blueprints vs Azure Resource Manager template specs](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-blueprints-vs-azure-resource-manager-template-specs/ba-p/2176909)

@@ -40,6 +40,8 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
   - Keep an eye on this one [Add IP address spaces to peered virtual networks](https://docs.microsoft.com/en-us/azure/architecture/networking/prefixes/add-ip-space-peered-vnet) 
 - [Azure Web Application Firewall (WAF) / using exclusion lists](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-tuning#using-exclusion-lists)
 - [Multi-region load balancing with Traffic Manager and Application Gateway](https://docs.microsoft.com/en-us/azure/architecture/high-availability/reference-architecture-traffic-manager-application-gateway) 
+- [Azure Firewall Premium](https://azure.microsoft.com/en-us/updates/azure-firewall-premium-now-in-public-preview)
+- [Azure Front Door Standard and Premium](https://azure.microsoft.com/en-us/updates/azure-front-door-standard-and-premium-now-in-public-preview/)
 ## Chapter 4 - Compute
 - [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/)
 - [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/)
@@ -68,6 +70,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Introducing private Azure marketplace—simplified app governance and deployment](https://azure.microsoft.com/en-us/blog/introducing-private-azure-marketplace-simplified-app-governance-and-deployment/)
 - [Azure Cost Management + Billing](https://docs.microsoft.com/en-us/azure/cost-management-billing/)
 - [Data integration with Logic Apps and SQL Server](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/integration/logic-apps-data-integration)
+- [Build a cloud governance strategy on Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/?WT.mc_id=modinfra-12795-salean)
 ### Industry Compliant Clouds
 - [Microsoft Cloud for Financial Services](https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/)
 - [Microsoft Cloud for Manufacturing](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/)
@@ -85,6 +88,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [At scale discovery and assessment for SQL Server migration to Azure SQL](https://azure.microsoft.com/en-us/updates/public-preview-at-scale-discovery-and-assessment-for-sql-server-migration-to-azure-sql/)
 - [Lift and Shift](https://channel9.msdn.com/Shows/DevOps-Lab/On-Prem-To-The-Cloud-Lift-and-Shift-Ep-2)
 - [Azure Migrate Server Migration: Common questions](https://docs.microsoft.com/en-us/azure/migrate/common-questions-server-migration)
+- [SAP Migration to Azure - Performance Optimization Guidance](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/sap-migration-to-azure-performance-optimization-guidance/ba-p/2112474)
 ## Chapter 9 - Monitor and Recover
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - [IT Service Management Connector Overview](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview)
@@ -94,3 +98,4 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure monitor for containers - AKS](https://azure.microsoft.com/en-us/updates/azmon-livelogs-pods/)
 - [Using Azure Data Explorer for long term retention of Azure Sentinel logs](https://techcommunity.microsoft.com/t5/azure-sentinel/using-azure-data-explorer-for-long-term-retention-of-azure/ba-p/1883947)
 - [Azure Automanage](https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/)
+- [Azure Edge Zone](https://docs.microsoft.com/en-us/azure/networking/edge-zones-overview)

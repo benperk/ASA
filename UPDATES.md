@@ -1,6 +1,8 @@
 # New or modified Azure products and features
 This file will be updated with new Azure products and features or changes to existing products and features which need mentioning.  If and when this book gets updated, these topics should be included.
 
+[![Microsoft Azure Architect Technologies and Design Complete Study Guide Exams AZ-303 and AZ-304](ASA.PNG)](https://www.wiley.com/en-us/Microsoft+Azure+Architect+Technologies+and+Design+Complete+Study+Guide+Exams+AZ+303+and+AZ+304-p-9781119559535)
+
 Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is%3Aissue+is%3Aclosed) which will be corrected in the near term.
 
 ## Chapter 1 - Gaining the Azure Solutions Architect Expert Certification 

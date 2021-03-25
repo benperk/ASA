@@ -93,6 +93,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [SAP Migration to Azure - Performance Optimization Guidance](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/sap-migration-to-azure-performance-optimization-guidance/ba-p/2112474)
 ## Chapter 9 - Monitor and Recover
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
+- Resolve any ambiguity regarding - **Log Analytics, Application Insights and ...**
 - [IT Service Management Connector Overview](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview)
 - [Use Application Change Analysis in Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/app/change-analysis)
 - [Manage your Azure resources using automation tasks](https://techcommunity.microsoft.com/t5/itops-talk-blog/manage-your-azure-resources-using-automation-tasks/ba-p/2160052)

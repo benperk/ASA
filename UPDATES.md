@@ -12,6 +12,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Automanage](https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/) => Chapter 9
 - [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/) -> Chapter 4
 - [Azure Attestation](https://docs.microsoft.com/en-us/azure/attestation/overview) -> Chapter 2
+- [Azure Spring Cloud](https://docs.microsoft.com/en-us/azure/spring-cloud/overview) -> Chapter 4
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4
@@ -44,6 +45,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Multi-region load balancing with Traffic Manager and Application Gateway](https://docs.microsoft.com/en-us/azure/architecture/high-availability/reference-architecture-traffic-manager-application-gateway) 
 - [Azure Firewall Premium](https://azure.microsoft.com/en-us/updates/azure-firewall-premium-now-in-public-preview)
 - [Azure Front Door Standard and Premium](https://azure.microsoft.com/en-us/updates/azure-front-door-standard-and-premium-now-in-public-preview/)
+- Increase coverage of [Service Tags](https://docs.microsoft.com/en-us/azure/virtual-network/service-tags-overview) p. 170
 ## Chapter 4 - Compute
 - [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/)
 - [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/)
@@ -52,6 +54,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Enable multiple Availability zones in single virtual machine scale set](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cross-availability-zones#preview-enable-multiple-availability-zones-in-single-virtual-machine-scale-set)
 - [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/)
 - [Host a static website in Azure Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-how-to?tabs=azure-portal) -> Chapter 5
+- [Azure Spring Cloud](https://docs.microsoft.com/en-us/azure/spring-cloud/overview) -> Chapter 4
 ### Azure Virtual Machines
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview)
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch)
@@ -73,6 +76,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Cost Management + Billing](https://docs.microsoft.com/en-us/azure/cost-management-billing/)
 - [Data integration with Logic Apps and SQL Server](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/integration/logic-apps-data-integration)
 - [Build a cloud governance strategy on Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/?WT.mc_id=modinfra-12795-salean)
+- Increase/Improve covereage of Tags, compare contrast with Service Tags (similar name different useage) p. 170 and p. 470
 ### Industry Compliant Clouds
 - [Microsoft Cloud for Financial Services](https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/)
 - [Microsoft Cloud for Manufacturing](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/)

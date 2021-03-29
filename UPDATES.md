@@ -107,3 +107,4 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Using Azure Data Explorer for long term retention of Azure Sentinel logs](https://techcommunity.microsoft.com/t5/azure-sentinel/using-azure-data-explorer-for-long-term-retention-of-azure/ba-p/1883947)
 - [Azure Automanage](https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/)
 - [Azure Edge Zone](https://docs.microsoft.com/en-us/azure/networking/edge-zones-overview)
+- [Expanding our DR scenarios to new zonal capabilities with Azure Site Recovery](https://azure.microsoft.com/en-us/blog/expanding-our-dr-scenarios-to-new-zonal-capabilities-with-azure-site-recovery/)

@@ -46,6 +46,8 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Firewall Premium](https://azure.microsoft.com/en-us/updates/azure-firewall-premium-now-in-public-preview)
 - [Azure Front Door Standard and Premium](https://azure.microsoft.com/en-us/updates/azure-front-door-standard-and-premium-now-in-public-preview/)
 - Increase coverage of [Service Tags](https://docs.microsoft.com/en-us/azure/virtual-network/service-tags-overview) p. 170
+- [DNS Load Balancing](https://thetechl33t.com/2020/12/21/dns-load-balancing-in-azure/)
+- [IPv6 Support for ExpressRoute Private Peering](https://azure.microsoft.com/en-us/updates/eripv6/)
 ## Chapter 4 - Compute
 - [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/)
 - [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/)
@@ -68,6 +70,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Cache for Redis - Zone redundancy](https://docs.microsoft.com/en-au/azure/azure-cache-for-redis/cache-high-availability#zone-redundancy)
 - [How to Monitor Batching Ingestion to ADX in Azure Portal](https://techcommunity.microsoft.com/t5/azure-data-explorer/how-to-monitor-batching-ingestion-to-adx-in-azure-portal/ba-p/2178857) -> Chapter 9
 - [Azure File Sync](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-planning)
+- [Azure Storage Content Repository](https://azurestorage.com/)
 ## Chapter 6 - Hybrid, Compliance, and Messaging
 - [New Azure Security Benchmark Foundation helps organizations embrace zero trust](https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/)
 - [Azure Blueprints vs Azure Resource Manager template specs](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-blueprints-vs-azure-resource-manager-template-specs/ba-p/2176909)
@@ -77,6 +80,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Data integration with Logic Apps and SQL Server](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/integration/logic-apps-data-integration)
 - [Build a cloud governance strategy on Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/?WT.mc_id=modinfra-12795-salean)
 - Increase/Improve covereage of Tags, compare contrast with Service Tags (similar name different useage) p. 170 and p. 470
+- [Guidance for personal data stored in Log Analytics and Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/personal-data-mgmt)
 ### Industry Compliant Clouds
 - [Microsoft Cloud for Financial Services](https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/)
 - [Microsoft Cloud for Manufacturing](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/)

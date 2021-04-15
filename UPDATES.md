@@ -60,6 +60,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Host a static website in Azure Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-how-to?tabs=azure-portal) -> Chapter 5
 - [Azure Spring Cloud](https://docs.microsoft.com/en-us/azure/spring-cloud/overview) -> Chapter 4
 - [Migration of Azure Cloud Services (classic) to Azure Resource Manager](https://azure.microsoft.com/en-us/updates/cloud-services-arm-migration/)
+- [AKS encryption at rest](https://azure.microsoft.com/en-us/updates/general-availability-encryption-at-host-support-in-aks/)
 ### Azure Virtual Machines
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview)
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch)

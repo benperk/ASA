@@ -11,6 +11,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
   - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - [Azure Automanage](https://azure.microsoft.com/en-us/updates/public-preview-announcing-new-capabilities-for-azure-automanage/) => Chapter 9
 - [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/) -> Chapter 4
+  - Compare and contrast with [static website on Blob Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host) 
 - [Azure Attestation](https://docs.microsoft.com/en-us/azure/attestation/overview) -> Chapter 2
 - [Azure Spring Cloud](https://docs.microsoft.com/en-us/azure/spring-cloud/overview) -> Chapter 4
 ## Chapter 2 - Security and Identity

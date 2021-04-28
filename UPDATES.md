@@ -20,6 +20,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview)
 - [Azure Attestation](https://docs.microsoft.com/en-us/azure/attestation/overview)
 - [(RBAC) with (AAD) on Azure Cosmos DB](https://azure.microsoft.com/en-us/updates/rolebased-access-control-rbac-with-azure-active-directory-aad-on-azure-cosmos-db-in-public-preview/)
+- [Azure resource provider operations](https://docs.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations) -> and Table 8.4
 - [Protect Applications Against DDoS Attacks](https://techcommunity.microsoft.com/t5/azure-security-center/security-control-protect-applications-against-ddos-attacks/ba-p/2169373)
 - [Manage Access and Permissions](https://techcommunity.microsoft.com/t5/azure-security-center/security-control-manage-access-and-permissions/ba-p/1720540)
 - [Azure Security Architect Map](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/the-azure-security-architect-map/ba-p/714091)

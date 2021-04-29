@@ -90,6 +90,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Build a cloud governance strategy on Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/?WT.mc_id=modinfra-12795-salean)
 - Increase/Improve covereage of Tags, compare contrast with Service Tags (similar name different useage) p. 170 and p. 470
 - [Guidance for personal data stored in Log Analytics and Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/personal-data-mgmt)
+- [Azure compliance](https://azure.microsoft.com/en-us/overview/trusted-cloud/compliance/)
 ### Industry Compliant Clouds
 - [Microsoft Cloud for Financial Services](https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/)
 - [Microsoft Cloud for Manufacturing](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/)

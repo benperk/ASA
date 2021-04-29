@@ -14,6 +14,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
   - Compare and contrast with [static website on Blob Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host) 
 - [Azure Attestation](https://docs.microsoft.com/en-us/azure/attestation/overview) -> Chapter 2
 - [Azure Spring Cloud](https://docs.microsoft.com/en-us/azure/spring-cloud/overview) -> Chapter 4
+- [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) -> Chapter 8(?)
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4

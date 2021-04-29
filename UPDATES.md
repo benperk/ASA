@@ -15,6 +15,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Attestation](https://docs.microsoft.com/en-us/azure/attestation/overview) -> Chapter 2
 - [Azure Spring Cloud](https://docs.microsoft.com/en-us/azure/spring-cloud/overview) -> Chapter 4
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) -> Chapter 8(?)
+- [Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) -> Chapter 6
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4

@@ -91,6 +91,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - Increase/Improve covereage of Tags, compare contrast with Service Tags (similar name different useage) p. 170 and p. 470
 - [Guidance for personal data stored in Log Analytics and Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/personal-data-mgmt)
 - [Azure compliance](https://azure.microsoft.com/en-us/overview/trusted-cloud/compliance/)
+- [Azure Event Grid for Azure Cache for Redis](https://azure.microsoft.com/en-us/updates/azure-event-grid-for-azure-cache-for-redis-now-in-general-availability/)
 ### Industry Compliant Clouds
 - [Microsoft Cloud for Financial Services](https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/)
 - [Microsoft Cloud for Manufacturing](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/)
@@ -124,3 +125,4 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Edge Zone](https://docs.microsoft.com/en-us/azure/networking/edge-zones-overview)
 - [Expanding our DR scenarios to new zonal capabilities with Azure Site Recovery](https://azure.microsoft.com/en-us/blog/expanding-our-dr-scenarios-to-new-zonal-capabilities-with-azure-site-recovery/)
 - [Azure Monitor / Azure Policy - encryption at rest](https://azure.microsoft.com/en-us/updates/general-availability-new-azure-policy-builtin-definitions-for-data-encryption-in-azure-monitor/)
+- [Azure Monitor - Work Item Integration](https://docs.microsoft.com/en-us/azure/azure-monitor/app/work-item-integration)

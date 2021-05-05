@@ -16,6 +16,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Spring Cloud](https://docs.microsoft.com/en-us/azure/spring-cloud/overview) -> Chapter 4
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) -> Chapter 8(?)
 - [Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) -> Chapter 6
+- [BareMetal Infrastructure](https://docs.microsoft.com/en-us/azure/baremetal-infrastructure/concepts-baremetal-infrastructure-overview) -> Chapter 4
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4
@@ -99,9 +100,11 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Microsoft Cloud for Healthcare](https://cloudblogs.microsoft.com/industry-blog/health/2021/02/24/building-resilient-models-of-care-with-new-microsoft-cloud-for-healthcare-features/)
 ## Chapter 7 - Developing for the Cloud
 - [GitHub Actions & Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/dev-spaces/how-to/github-actions)
+- [Best practices in cloud applications](https://docs.microsoft.com/en-us/azure/architecture/best-practices/index-best-practices)
 ### Code Patterns
 - [Retry Storm](https://docs.microsoft.com/en-us/azure/architecture/antipatterns/retry-storm/)
 - [No Caching](https://docs.microsoft.com/en-us/azure/architecture/antipatterns/no-caching/)
+- [Asynchronous Request-Reply pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/async-request-reply)
 ## Chapter 8 - Migrate and Deploy
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover)
   - - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate** 
@@ -126,3 +129,4 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Expanding our DR scenarios to new zonal capabilities with Azure Site Recovery](https://azure.microsoft.com/en-us/blog/expanding-our-dr-scenarios-to-new-zonal-capabilities-with-azure-site-recovery/)
 - [Azure Monitor / Azure Policy - encryption at rest](https://azure.microsoft.com/en-us/updates/general-availability-new-azure-policy-builtin-definitions-for-data-encryption-in-azure-monitor/)
 - [Azure Monitor - Work Item Integration](https://docs.microsoft.com/en-us/azure/azure-monitor/app/work-item-integration)
+- [Expanding our DR scenarios to new zonal capabilities with Azure Site Recovery](https://azure.microsoft.com/en-us/blog/expanding-our-dr-scenarios-to-new-zonal-capabilities-with-azure-site-recovery/)

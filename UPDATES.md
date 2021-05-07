@@ -17,6 +17,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) -> Chapter 8(?)
 - [Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) -> Chapter 6
 - [BareMetal Infrastructure](https://docs.microsoft.com/en-us/azure/baremetal-infrastructure/concepts-baremetal-infrastructure-overview) -> Chapter 4
+- [Azure Data Share](https://docs.microsoft.com/en-us/rest/api/datashare/) ?
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4
@@ -72,6 +73,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Dedicated Host](https://azure.microsoft.com/en-us/services/virtual-machines/dedicated-host/)
 - [Azure Image Builder](https://docs.microsoft.com/en-us/azure/virtual-machines/image-builder-overview)
 - [More performance and choice with new Azure HBv3 virtual machines for HPC](https://azure.microsoft.com/en-us/blog/more-performance-and-choice-with-new-azure-hbv3-virtual-machines-for-hpc/)
+- [Microsoft Virtual Machine Converter (MVMC) is being retired](https://techcommunity.microsoft.com/t5/system-center-blog/microsoft-virtual-machine-converter-mvmc-is-being-retired/ba-p/351541) - install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) -> ``` VBoxManage clonehd source.vmdk target.vhd --format vhd ```
 ## Chapter 5 - Data and Storage
 - [Maintenance window for Azure SQL Database and Azure SQL Managed Instance](https://azure.microsoft.com/en-us/updates/public-preview-maintenance-window-for-azure-sql-database-and-azure-sql-managed-instance/)
 - [Routing Preferences now generally available](https://azure.microsoft.com/en-us/updates/routing-preferences-azure-storage-ga/)
@@ -93,6 +95,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Guidance for personal data stored in Log Analytics and Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/personal-data-mgmt)
 - [Azure compliance](https://azure.microsoft.com/en-us/overview/trusted-cloud/compliance/)
 - [Azure Event Grid for Azure Cache for Redis](https://azure.microsoft.com/en-us/updates/azure-event-grid-for-azure-cache-for-redis-now-in-general-availability/)
+- [Choreography](https://docs.microsoft.com/en-us/azure/architecture/patterns/choreography) - Messaging & Chapter 7 pattern
 ### Industry Compliant Clouds
 - [Microsoft Cloud for Financial Services](https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/)
 - [Microsoft Cloud for Manufacturing](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/)
@@ -115,6 +118,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [SAP Migration to Azure - Performance Optimization Guidance](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/sap-migration-to-azure-performance-optimization-guidance/ba-p/2112474)
 - [What is Bicep (Preview)?](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/bicep-overview)
 - [Azure Retail Prices API](https://docs.microsoft.com/en-us/rest/api/cost-management/retail-prices/azure-retail-prices)
+- [Using Azure Migrate with private endpoints](https://docs.microsoft.com/en-us/azure/migrate/how-to-use-azure-migrate-with-private-endpoints)
 ## Chapter 9 - Monitor and Recover
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - Resolve any ambiguity regarding - **Log Analytics, Application Insights and ...**

@@ -33,6 +33,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure security baseline for Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/security-baseline) -> Chapter 5
 - [Security Control: Encrypt data in transit](https://techcommunity.microsoft.com/t5/azure-security-center/security-control-encrypt-data-in-transit/ba-p/2201008)
 - [Multivariate Anomaly Detection](https://techcommunity.microsoft.com/t5/azure-ai/introducing-multivariate-anomaly-detection/ba-p/2260679)
+- [Attribute-Based Access Control (Azure ABAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/conditions-overview)
 ### Cloud App Security
 - [Cloud App Security March](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-cloud-app-security-update-march-2021/ba-p/2157650) -> Chapter 6 (Compliance/Governance) and Chapter 8 (Migrate/Discovery)
 ### Managed Identity

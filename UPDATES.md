@@ -17,7 +17,8 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) -> Chapter 8(?)
 - [Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) -> Chapter 6
 - [BareMetal Infrastructure](https://docs.microsoft.com/en-us/azure/baremetal-infrastructure/concepts-baremetal-infrastructure-overview) -> Chapter 4
-- [Azure Data Share](https://docs.microsoft.com/en-us/rest/api/datashare/) ?
+- [Azure Data Share](https://docs.microsoft.com/en-us/rest/api/datashare/) -> Chapter 5
+- [Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/product-overview/what-is-azure-sphere) -> Chapter 2
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4
@@ -34,6 +35,8 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Security Control: Encrypt data in transit](https://techcommunity.microsoft.com/t5/azure-security-center/security-control-encrypt-data-in-transit/ba-p/2201008)
 - [Multivariate Anomaly Detection](https://techcommunity.microsoft.com/t5/azure-ai/introducing-multivariate-anomaly-detection/ba-p/2260679)
 - [Attribute-Based Access Control (Azure ABAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/conditions-overview)
+- [Hybrid Identity: Getting Users Aligned](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/hybrid-identity-getting-users-aligned/ba-p/2274690)
+- [What's the difference between a personal Microsoft account and a work or school account?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-a-personal-microsoft-account-and-a/ba-p/2241897)
 ### Cloud App Security
 - [Cloud App Security March](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-cloud-app-security-update-march-2021/ba-p/2157650) -> Chapter 6 (Compliance/Governance) and Chapter 8 (Migrate/Discovery)
 ### Managed Identity
@@ -120,6 +123,9 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [What is Bicep (Preview)?](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/bicep-overview)
 - [Azure Retail Prices API](https://docs.microsoft.com/en-us/rest/api/cost-management/retail-prices/azure-retail-prices)
 - [Using Azure Migrate with private endpoints](https://docs.microsoft.com/en-us/azure/migrate/how-to-use-azure-migrate-with-private-endpoints)
+- [ARM Template Specs](https://dev.to/azure/arm-template-specs-now-ga-161a)
+- [Azure Resource Manager template specs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs?tabs=azure-cli)
+- [App Service Migration Assistant - Linux Notes](https://github.com/Azure/App-Service-Migration-Assistant/wiki/Linux-Notes)
 ## Chapter 9 - Monitor and Recover
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - Resolve any ambiguity regarding - **Log Analytics, Application Insights and ...**
@@ -135,3 +141,4 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Monitor / Azure Policy - encryption at rest](https://azure.microsoft.com/en-us/updates/general-availability-new-azure-policy-builtin-definitions-for-data-encryption-in-azure-monitor/)
 - [Azure Monitor - Work Item Integration](https://docs.microsoft.com/en-us/azure/azure-monitor/app/work-item-integration)
 - [Expanding our DR scenarios to new zonal capabilities with Azure Site Recovery](https://azure.microsoft.com/en-us/blog/expanding-our-dr-scenarios-to-new-zonal-capabilities-with-azure-site-recovery/)
+- [Azure Service Health](https://azure.microsoft.com/en-us/features/service-health)

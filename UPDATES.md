@@ -37,6 +37,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Attribute-Based Access Control (Azure ABAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/conditions-overview)
 - [Hybrid Identity: Getting Users Aligned](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/hybrid-identity-getting-users-aligned/ba-p/2274690)
 - [What's the difference between a personal Microsoft account and a work or school account?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-a-personal-microsoft-account-and-a/ba-p/2241897)
+- [App Service Managed Certificates](https://azure.microsoft.com/en-us/updates/app-service-managed-certificates-now-generally-available/)
 ### Cloud App Security
 - [Cloud App Security March](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-cloud-app-security-update-march-2021/ba-p/2157650) -> Chapter 6 (Compliance/Governance) and Chapter 8 (Migrate/Discovery)
 ### Managed Identity
@@ -87,6 +88,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [How to Monitor Batching Ingestion to ADX in Azure Portal](https://techcommunity.microsoft.com/t5/azure-data-explorer/how-to-monitor-batching-ingestion-to-adx-in-azure-portal/ba-p/2178857) -> Chapter 9
 - [Azure File Sync](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-planning)
 - [Azure Storage Content Repository](https://azurestorage.com/)
+- [Azure NetApp Files : Application Consistent Snapshot tool (AzAcSnap)](https://azure.microsoft.com/en-us/updates/general-availability-azure-netapp-files-application-consistent-snapshot-tool-azacsnap/)
 ## Chapter 6 - Hybrid, Compliance, and Messaging
 - [New Azure Security Benchmark Foundation helps organizations embrace zero trust](https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/)
 - [Azure Blueprints vs Azure Resource Manager template specs](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-blueprints-vs-azure-resource-manager-template-specs/ba-p/2176909)
@@ -112,6 +114,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Retry Storm](https://docs.microsoft.com/en-us/azure/architecture/antipatterns/retry-storm/)
 - [No Caching](https://docs.microsoft.com/en-us/azure/architecture/antipatterns/no-caching/)
 - [Asynchronous Request-Reply pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/async-request-reply)
+- [Azure SDK](https://github.com/Azure/azure-sdk/blob/master/README.md)
 ## Chapter 8 - Migrate and Deploy
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover)
   - - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate** 
@@ -142,3 +145,4 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Monitor - Work Item Integration](https://docs.microsoft.com/en-us/azure/azure-monitor/app/work-item-integration)
 - [Expanding our DR scenarios to new zonal capabilities with Azure Site Recovery](https://azure.microsoft.com/en-us/blog/expanding-our-dr-scenarios-to-new-zonal-capabilities-with-azure-site-recovery/)
 - [Azure Service Health](https://azure.microsoft.com/en-us/features/service-health)
+- [Enable Azure Site Recovery (ASR) while creating Azure Virtual Machines](https://azure.microsoft.com/en-us/updates/enable-asr-create-vm/)

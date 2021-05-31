@@ -19,6 +19,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [BareMetal Infrastructure](https://docs.microsoft.com/en-us/azure/baremetal-infrastructure/concepts-baremetal-infrastructure-overview) -> Chapter 4
 - [Azure Data Share](https://docs.microsoft.com/en-us/rest/api/datashare/) -> Chapter 5
 - [Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/product-overview/what-is-azure-sphere) -> Chapter 2
+- [Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/security-center-introduction) -> Chapter 2
 ## Chapter 2 - Security and Identity
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview) -> Chapter 4
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch) -> Chapter 4

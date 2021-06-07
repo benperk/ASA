@@ -6,6 +6,7 @@ This file will be updated with new Azure products and features or changes to exi
 Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is%3Aissue+is%3Aclosed) which will be corrected in the near term.
 
 ## Chapter 1 - Gaining the Azure Solutions Architect Expert Certification 
+- [Azure Status Board](https://azurecharts.com/status) - Nice list of Azure products, features and services
 - [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/) -> Chapter 4
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover) -> Chapter 8
   - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
@@ -62,6 +63,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [DNS Load Balancing](https://thetechl33t.com/2020/12/21/dns-load-balancing-in-azure/)
 - [IPv6 Support for ExpressRoute Private Peering](https://azure.microsoft.com/en-us/updates/eripv6/)
 - [Application Gateway URL Rewrite](https://azure.microsoft.com/en-us/updates/general-availability-application-gateway-url-rewrite/)
+- [Azure Internet Analyzer](https://azure.microsoft.com/en-us/services/internet-analyzer/)
 ## Chapter 4 - Compute
 - [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/)
 - [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/)

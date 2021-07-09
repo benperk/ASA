@@ -40,6 +40,9 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Hybrid Identity: Getting Users Aligned](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/hybrid-identity-getting-users-aligned/ba-p/2274690)
 - [What's the difference between a personal Microsoft account and a work or school account?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-a-personal-microsoft-account-and-a/ba-p/2241897)
 - [App Service Managed Certificates](https://azure.microsoft.com/en-us/updates/app-service-managed-certificates-now-generally-available/)
+- [Introduction to Azure Defender](https://docs.microsoft.com/en-us/azure/security-center/azure-defender)
+- [Optimize security with Azure Firewall solution for Azure Sentinel](https://www.microsoft.com/security/blog/2021/06/08/optimize-security-with-azure-firewall-solution-for-azure-sentinel/)
+- [Key Rotation and Expiration Policies for Azure Storage](https://azure.microsoft.com/en-us/updates/key-rotation-and-expiration-policies-for-azure-storage/)
 ### Cloud App Security
 - [Cloud App Security March](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-cloud-app-security-update-march-2021/ba-p/2157650) -> Chapter 6 (Compliance/Governance) and Chapter 8 (Migrate/Discovery)
 ### Managed Identity
@@ -64,6 +67,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [IPv6 Support for ExpressRoute Private Peering](https://azure.microsoft.com/en-us/updates/eripv6/)
 - [Application Gateway URL Rewrite](https://azure.microsoft.com/en-us/updates/general-availability-application-gateway-url-rewrite/)
 - [Azure Internet Analyzer](https://azure.microsoft.com/en-us/services/internet-analyzer/)
+- [Connectors](https://docs.microsoft.com/en-us/connectors/connectors)
 ## Chapter 4 - Compute
 - [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/)
 - [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/)
@@ -75,6 +79,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Spring Cloud](https://docs.microsoft.com/en-us/azure/spring-cloud/overview) -> Chapter 4
 - [Migration of Azure Cloud Services (classic) to Azure Resource Manager](https://azure.microsoft.com/en-us/updates/cloud-services-arm-migration/)
 - [AKS encryption at rest](https://azure.microsoft.com/en-us/updates/general-availability-encryption-at-host-support-in-aks/)
+- [Azure Digital Twins](https://docs.microsoft.com/en-us/azure/digital-twins/overview)
 ### Azure Virtual Machines
 - [Azure Bastion](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview)
 - [Trusted launch for Azure virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/trusted-launch)
@@ -132,6 +137,9 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [ARM Template Specs](https://dev.to/azure/arm-template-specs-now-ga-161a)
 - [Azure Resource Manager template specs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs?tabs=azure-cli)
 - [App Service Migration Assistant - Linux Notes](https://github.com/Azure/App-Service-Migration-Assistant/wiki/Linux-Notes)
+- [Movere](https://www.movere.io/) - plan cloud migrations and continuously optimize, monitor and analyze IT environments with confidence
+- [How to move your resources across regions and into Availability Zones using Azure Resource Mover](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-move-your-resources-across-regions-and-into-availability/ba-p/2406830)
+- [Cross-region data replication using rsync](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/cross-region-data-replication-using-rsync/ba-p/2503081)
 ## Chapter 9 - Monitor and Recover
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - Resolve any ambiguity regarding - **Log Analytics, Application Insights and ...**
@@ -149,3 +157,4 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Expanding our DR scenarios to new zonal capabilities with Azure Site Recovery](https://azure.microsoft.com/en-us/blog/expanding-our-dr-scenarios-to-new-zonal-capabilities-with-azure-site-recovery/)
 - [Azure Service Health](https://azure.microsoft.com/en-us/features/service-health)
 - [Enable Azure Site Recovery (ASR) while creating Azure Virtual Machines](https://azure.microsoft.com/en-us/updates/enable-asr-create-vm/)
+- [Azure Monitor Agent and Data Collection Rules](https://azure.microsoft.com/en-us/updates/azure-monitor-agent-and-data-collection-rules-now-generally-available/)

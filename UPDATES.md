@@ -43,6 +43,9 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Introduction to Azure Defender](https://docs.microsoft.com/en-us/azure/security-center/azure-defender)
 - [Optimize security with Azure Firewall solution for Azure Sentinel](https://www.microsoft.com/security/blog/2021/06/08/optimize-security-with-azure-firewall-solution-for-azure-sentinel/)
 - [Key Rotation and Expiration Policies for Azure Storage](https://azure.microsoft.com/en-us/updates/key-rotation-and-expiration-policies-for-azure-storage/)
+- [Grant access from Azure resource instances](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security?tabs=azure-portal#grant-access-from-azure-resource-instances-preview)
+- [What is Azure Key Vault Managed HSM?](https://docs.microsoft.com/en-us/azure/key-vault/managed-hsm/overview)
+- [Integrate Managed HSM with Azure Private Link](https://docs.microsoft.com/en-us/azure/key-vault/managed-hsm/private-link)
 ### Cloud App Security
 - [Cloud App Security March](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-cloud-app-security-update-march-2021/ba-p/2157650) -> Chapter 6 (Compliance/Governance) and Chapter 8 (Migrate/Discovery)
 ### Managed Identity
@@ -68,6 +71,9 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Application Gateway URL Rewrite](https://azure.microsoft.com/en-us/updates/general-availability-application-gateway-url-rewrite/)
 - [Azure Internet Analyzer](https://azure.microsoft.com/en-us/services/internet-analyzer/)
 - [Connectors](https://docs.microsoft.com/en-us/connectors/connectors)
+- [NAT on Azure VPN Gateway](https://docs.microsoft.com/en-us/azure/vpn-gateway/nat-overview)
+- [DRS 2.0 - WAF on AFD](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20#drs-20)
+- [How to re-size Azure virtual networks that are peered—now in preview](https://azure.microsoft.com/en-us/blog/how-to-resize-azure-virtual-networks-that-are-peered-now-in-preview/)
 ## Chapter 4 - Compute
 - [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/)
 - [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/)
@@ -87,6 +93,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Image Builder](https://docs.microsoft.com/en-us/azure/virtual-machines/image-builder-overview)
 - [More performance and choice with new Azure HBv3 virtual machines for HPC](https://azure.microsoft.com/en-us/blog/more-performance-and-choice-with-new-azure-hbv3-virtual-machines-for-hpc/)
 - [Microsoft Virtual Machine Converter (MVMC) is being retired](https://techcommunity.microsoft.com/t5/system-center-blog/microsoft-virtual-machine-converter-mvmc-is-being-retired/ba-p/351541) - install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) -> ``` VBoxManage clonehd source.vmdk target.vhd --format vhd ```
+- [Azure Image Builder](https://docs.microsoft.com/en-us/azure/virtual-machines/image-builder-overview)
 ## Chapter 5 - Data and Storage
 - [Maintenance window for Azure SQL Database and Azure SQL Managed Instance](https://azure.microsoft.com/en-us/updates/public-preview-maintenance-window-for-azure-sql-database-and-azure-sql-managed-instance/)
 - [Routing Preferences now generally available](https://azure.microsoft.com/en-us/updates/routing-preferences-azure-storage-ga/)
@@ -97,6 +104,8 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure File Sync](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-planning)
 - [Azure Storage Content Repository](https://azurestorage.com/)
 - [Azure NetApp Files : Application Consistent Snapshot tool (AzAcSnap)](https://azure.microsoft.com/en-us/updates/general-availability-azure-netapp-files-application-consistent-snapshot-tool-azacsnap/)
+- [Managed disk bursting](https://docs.microsoft.com/en-us/azure/virtual-machines/disk-bursting)
+- [Reservation terms for Azure Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-reserved-capacity)
 ## Chapter 6 - Hybrid, Compliance, and Messaging
 - [New Azure Security Benchmark Foundation helps organizations embrace zero trust](https://devblogs.microsoft.com/azuregov/new-azure-security-benchmark-foundation-helps-organizations-embrace-zero-trust/)
 - [Azure Blueprints vs Azure Resource Manager template specs](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-blueprints-vs-azure-resource-manager-template-specs/ba-p/2176909)
@@ -110,6 +119,8 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure compliance](https://azure.microsoft.com/en-us/overview/trusted-cloud/compliance/)
 - [Azure Event Grid for Azure Cache for Redis](https://azure.microsoft.com/en-us/updates/azure-event-grid-for-azure-cache-for-redis-now-in-general-availability/)
 - [Choreography](https://docs.microsoft.com/en-us/azure/architecture/patterns/choreography) - Messaging & Chapter 7 pattern
+- [Azure Lighthouse](https://docs.microsoft.com/en-us/azure/lighthouse/overview)
+- [Azure Blueprints transitioning to DeploymentStacks](https://docs.microsoft.com/en-us/answers/questions/177308/blueprints-roadmap.html)
 ### Industry Compliant Clouds
 - [Microsoft Cloud for Financial Services](https://cloudblogs.microsoft.com/industry-blog/financial-services/2021/02/24/announcing-microsoft-cloud-for-financial-services/)
 - [Microsoft Cloud for Manufacturing](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2021/02/24/introducing-microsoft-cloud-for-manufacturing/)
@@ -123,6 +134,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [No Caching](https://docs.microsoft.com/en-us/azure/architecture/antipatterns/no-caching/)
 - [Asynchronous Request-Reply pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/async-request-reply)
 - [Azure SDK](https://github.com/Azure/azure-sdk/blob/master/README.md)
+- [Azure Communication Services](https://docs.microsoft.com/en-us/azure/communication-services/overview)
 ## Chapter 8 - Migrate and Deploy
 - [Azure Resource Mover](https://docs.microsoft.com/en-us/azure/resource-mover)
   - - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate** 
@@ -140,6 +152,7 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Movere](https://www.movere.io/) - plan cloud migrations and continuously optimize, monitor and analyze IT environments with confidence
 - [How to move your resources across regions and into Availability Zones using Azure Resource Mover](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-move-your-resources-across-regions-and-into-availability/ba-p/2406830)
 - [Cross-region data replication using rsync](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/cross-region-data-replication-using-rsync/ba-p/2503081)
+- [Transition to Cloud Services (extended support) with new migration tool](https://azure.microsoft.com/en-us/updates/cloud-services-arm-migration-ga/)
 ## Chapter 9 - Monitor and Recover
 - Resolve any ambiguity regarding - **Azure Site Recovery, Recovery Services Vault and Azure Migrate**
 - Resolve any ambiguity regarding - **Log Analytics, Application Insights and ...**
@@ -158,3 +171,5 @@ Review already reported Errata [here](https://github.com/benperk/ASA/issues?q=is
 - [Azure Service Health](https://azure.microsoft.com/en-us/features/service-health)
 - [Enable Azure Site Recovery (ASR) while creating Azure Virtual Machines](https://azure.microsoft.com/en-us/updates/enable-asr-create-vm/)
 - [Azure Monitor Agent and Data Collection Rules](https://azure.microsoft.com/en-us/updates/azure-monitor-agent-and-data-collection-rules-now-generally-available/)
+- [Azure Automation Customer Managed Keys](https://azure.microsoft.com/en-us/updates/azure-automation-customer-managed-keys/)
+- [Application Insights - Availability tests overview](https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-overview)
